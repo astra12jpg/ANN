@@ -1,4 +1,4 @@
-# Artifical_Neural_Network
+# Artificial Neural Network
 
 ********************************************************************************
                           BEFORE START 
