@@ -1,11 +1,19 @@
-# Artificial Neural Network
+********************************************************************************* 
+                         SHORT DESCRIPTION
+
+ This is an artificial neural network program for classification tasks and it is based on stochastic
+ gradient and error back propagation algorithms. This program is also a proposal to overcome the 
+ problem of the local minimum. Namely, by monitoring the loss function, the local minimum is determined
+ after which the percentage of successfully reproduced samples is checked. If it is >95% on both
+ sets (training and validation), the global maximum has been reached. Otherwise, a small offset is
+ added to the neural weights and biases, pushing the network out of the way local minimum.
 
 ********************************************************************************
                           BEFORE START 
 
   The program is written in C# using the Visual Studio 2022 IDE.
 
-  You need to install the namespace, System.Runtime.InteropServices in the following steps: 
+  It is necessary to install the namespace, System.Runtime.InteropServices in the following steps: 
 
   1. Right click on the project name in Solution Explorer. 
   2. Click on ManageNuGet Packages. 
@@ -13,7 +21,7 @@
   4. In the list below, select System.Runtime.InteropServices.
   5. Click Install. 
 
-  Also, You need to install the namespace, Microsoft.Office.Interop.Excel. Follow the steps: 
+  Also, It is necessary the namespace, Microsoft.Office.Interop.Excel. Follow the steps: 
 
   1. Right click on the project name in Solution Explorer. 
   2. Click on the Add option. 
@@ -24,7 +32,7 @@
 *********************************************************************************
 
   The software comes with a folder under the title Input data, with prepared 
-  databases for testing it. You need to set the path to this folder in the
+  databases for testing it.  It is necessary to set the path to this folder in the
   source code, as shown below:
 
     string path = @"C:\Input_data\iris_set.xlsx";
