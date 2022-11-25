@@ -1,8 +1,8 @@
 ********************************************************************************* 
                          SHORT DESCRIPTION
 
- This is an artificial neural network program for classification tasks and it is based on stochastic
- gradient and error back propagation algorithms. This program is also a proposal to overcome the 
+ This is an artificial neural network program for classification tasks and it is based on 
+ gradient descent and error back propagation algorithms. This program is also a proposal to overcome the 
  problem of the local minimum. Namely, by monitoring the loss function, the local minimum is determined
  after which the percentage of successfully reproduced samples is checked. If it is >95% on both
  sets (training and validation), the global maximum has been reached. Otherwise, a small offset is
